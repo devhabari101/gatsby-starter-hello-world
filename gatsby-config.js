@@ -1,12 +1,9 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
-
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
+// gatsby-config.js
 module.exports = {
+  siteMetadata: {
+    title: 'My Gatsby Site',
+    description: 'A description of my site',
+    author: '@myhandle',
+  },
   plugins: [],
 }
